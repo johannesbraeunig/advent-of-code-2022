@@ -1,0 +1,8 @@
+{
+	"fmt": {
+		"options": {
+			"singleQuote": true,
+			"useTabs": true
+		}
+	}
+}
