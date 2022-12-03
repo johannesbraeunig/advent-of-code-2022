@@ -3,3 +3,5 @@ export const sum = (array: number[]) => {
 	array.forEach((n) => s = s + n);
 	return s;
 };
+
+export const { log } = console;
