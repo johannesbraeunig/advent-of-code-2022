@@ -47,7 +47,7 @@
  * - Same calculation applies like in part 1
  */
 
-import { sum } from '../utils.ts';
+import { sum } from '../../utils.ts';
 
 type RockPaperScissor = 'ROCK' | 'PAPER' | 'SCISSOR';
 type MatchResult = 'WON' | 'DRAW' | 'LOST';

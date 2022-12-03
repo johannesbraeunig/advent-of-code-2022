@@ -6,7 +6,7 @@
  */
 
 import { assertEquals } from 'https://deno.land/std@0.167.0/testing/asserts.ts';
-import { log, sum } from '../utils.ts';
+import { log, sum } from '../../utils.ts';
 
 const input = await Deno.readTextFile('./input.txt');
 const exampleInput = await Deno.readTextFile('./example.txt');

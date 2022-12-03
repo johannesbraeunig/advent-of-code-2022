@@ -14,6 +14,7 @@ const getPart1 = () => 'Part 1';
 const getPart2 = () => 'Part 2';
 
 const input = await Deno.readTextFile('./input.txt');
+// deno-lint-ignore no-unused-vars
 const parsedInput = getParsedInput(input);
 
 const part1 = getPart1();
